@@ -1,0 +1,118 @@
+* {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+body {
+  background-color: #f3f5fc;
+}
+
+header {
+  vertical-align: top;
+}
+
+main {
+  padding-top: 30px;
+  display: flex;
+  margin: 0 auto;
+  width: 940px;
+}
+
+section button {
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 24px;
+  border: solid 1px #0a3871;
+  cursor: pointer;
+  vertical-align: bottom;
+  font-size: 20px;
+  background-color: #d8dfe8;
+}
+
+button:hover {
+  background-color: #add8e6;
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.texto-entrada {
+  padding-top: 60px;
+  width: 70%;
+}
+
+.texto-entrada textarea {
+  background-color: #f3f5fc;
+}
+
+.msgBox {
+  border-radius: 10px;
+  width: 400px;
+  height: 944px;
+  top: 12px;
+  border-radius: 32px;
+  background-color: #fff;
+  padding: 20px 10px;
+}
+
+.imagem {
+  height: 100%;
+  background-image: url(imagens/boneco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+textarea {
+  border: none;
+  width: 90%;
+  height: 61vh;
+}
+
+textarea::placeholder {
+  color: #0a3871;
+  font-size: 32px;
+}
+
+textarea:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.btnEncriptar {
+  width: 45%;
+}
+
+.cript-encript {
+  background-color: #0a3871;
+  color: #fff;
+}
+
+.cript-encript:hover {
+  background-color: #3f51b5;
+}
+
+.botoes {
+  display: block;
+}
+
+#msgCripto {
+  height: 74vh;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+}
