@@ -6,7 +6,13 @@
 }
 
 body {
-  background-color: #f3f5fc;
+  background: rgb(169, 121, 17);
+  background: linear-gradient(
+    0deg,
+    rgba(169, 121, 17, 1) 8%,
+    rgba(236, 191, 82, 1) 56%,
+    rgba(229, 208, 160, 1) 99%
+  );
 }
 
 header {
@@ -54,7 +60,14 @@ button:active {
 }
 
 .texto-entrada textarea {
-  background-color: #f3f5fc;
+  background: rgb(169, 121, 17);
+  background: linear-gradient(
+    0deg,
+    rgba(169, 121, 17, 1) -83%,
+    rgba(236, 191, 82, 1) 43%,
+    rgba(229, 208, 160, 1) 113%
+  );
+  border: solid 1px grey;
 }
 
 .msgBox {
@@ -63,12 +76,19 @@ button:active {
   height: 944px;
   top: 12px;
   border-radius: 32px;
-  background-color: #fff;
+  border: solid 1px grey;
+  background: rgb(169, 121, 17);
+  background: linear-gradient(
+    0deg,
+    rgba(169, 121, 17, 1) 7%,
+    rgba(236, 191, 82, 1) 57%,
+    rgba(229, 208, 160, 1) 104%
+  );
   padding: 20px 10px;
 }
 
 .imagem {
-  height: 100%;
+  height: 65%;
   background-image: url(imagens/boneco.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -110,6 +130,13 @@ textarea:focus {
 
 #msgCripto {
   height: 74vh;
+  background: rgb(169, 121, 17);
+  background: linear-gradient(
+    0deg,
+    rgba(169, 121, 17, 1) -32%,
+    rgba(236, 191, 82, 1) 38%,
+    rgba(229, 208, 160, 1) 107%
+  );
 }
 
 footer {
